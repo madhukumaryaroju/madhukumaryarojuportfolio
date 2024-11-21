@@ -9703,5 +9703,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+    .b-shadow-a {
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
     
   
