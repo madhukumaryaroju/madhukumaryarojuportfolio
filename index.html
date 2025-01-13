@@ -34,6 +34,14 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.circular-image {
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Make height equal to width */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image fits nicely within the circle */
+  border: 2px solid #000; /* Optional: Add a border for aesthetics */
+}
+
 
 .about-mf .about-img {
   margin-bottom: 20rem;
@@ -161,7 +169,7 @@
 						// Create an array of typing text
 						const typingTexts = [
 						'Engineer  ',
-						'Developer',
+						'Full Stack Developer',
 						'MEMER  ',
 						];
 
@@ -214,16 +222,18 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-4">
 									  <div class="about-img">
-										<img src="me.jpg" class="img-fluid rounded b-shadow-a" alt="Rounded Image">
+										<!-- <img src="me.jpg" class="img-fluid rounded b-shadow-a" alt="Rounded Image"> -->
+										<img src="me.jpg" alt="Rounded Image" class="circular-image">
+
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Yaroju Madhu Kumar</span></p>
+										<!-- <p><span class="title-s">Name: </span> <span>Yaroju Madhu Kumar</span></p>
 										<p><span class="title-s">Qualification: </span> <span>B.Tech</span></p>
 										<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
-										<p><span class="title-s">Address: </span> <span>Hyderbad, India</span></p>
+										<p><span class="title-s">Address: </span> <span>Hyderbad, India</span></p> -->
 									  </div>
 									</div>
 								  </div>
@@ -231,21 +241,36 @@
 								<div class="skill-mf">
 									<h3 class="title-s">Skills</h3>
 									
-									
-									<span>Java</span> <span class="pull-right">85%</span>
+									<h3 class="title-s">Backend</h3>
+									<span>Java(Core & Advanced) : </span> <span class="pull-right">85%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
+										
 									</div>
-
-									<span>HTML</span> <span class="pull-right">95%</span>
+									<h3 class="title-s">DataBases : </h3>
+									<span>MySQL :</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									<span>CSS</span> <span class="pull-right">95%</span>
+									<span>Oracle :</span> <span class="pull-right">65%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<h3 class="title-s">Frontend</h3>
+
+									<span>HTML</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>CSS</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									<span>Java Script</span> <span class="pull-right">90%</span>
@@ -258,38 +283,10 @@
 										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									<span>React JS</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									<span>Web Development</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									<span>Python</span> <span class="pull-right">60%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
 									
-									<span>Presentation& Communication Skills</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
 									
-									<span>Editing(Photo&Video)</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									<span>SQL</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+									
+									
 									
 								</div>
 							</div>
@@ -308,13 +305,14 @@
 									contributions to the organization. Committed to leveraging technical expertise and a passion for innovation to excel in future
 									endeavors.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Name:</span> <span>Yaroju Madhu Kumar</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
 									<li class="d-flex"><span>College:</span> <span>JB Institute Of Engineering and Technology</span></li>
 									<li class="d-flex"><span>Branch:</span> <span>Electronics and Computer Engineering</span></li>
 									<li class="d-flex"><span>CGPA:</span> <span>79.7%</span></li>
 									<li class="d-flex"><span>Languages:</span> <span>English, Hindi, Telugu</span></li>
 									<li class="d-flex"><span>RESPONSIBILITY: </span> <span>General Secretary, NSS JBIET(2023-2024)</span></li>
-									<li class="d-flex"><span>Intrest:</span> <span>Webpage Development, Problem solving,
+									<li class="d-flex"><span>Intrest:</span> <span>Problem solving,
 										Photo & Video Editing</span></li>
 									<li class="d-flex"><span>Hobbies:</span> <span>Meme Creation , Photo Editing, Video Editing</span></li>
 									
@@ -326,7 +324,7 @@
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
 								<p class="mb-4">
-									<span class="number" >4+</span>
+									<span class="number" >6+</span>
 									<span>&nbsp; Projects </span>
 								</p>
 								<p><a href="https://github.com/madhukumaryaroju" class="btn btn-primary py-3 px-3">GitHub</a></p>
@@ -471,8 +469,10 @@
 
 		
 		
-		<div class="row" style="margin-left: 20%; width: 1400px;">
-				<div class="col-md-6">
+		<div class="row" style=" width: 1400px;">
+				
+
+				<div class="col-md-5">
 					<div class="resume-wrap ftco-animate">
 						<h2>INTERNSHIP</h2>
 						<span class="date">2024</span>
@@ -487,8 +487,7 @@
 							media to specified directories. Enhanced user interactivity with keyboard controls for capturing images, 
 							recording videos, and switching filters.</p>
 						
-							 
-								
+	
 								<p><a href="https://ntr12321.github.io/intern/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
 								
 							
@@ -497,25 +496,31 @@
 
 				</div>
 
-				<!-- <div class="col-md-6">
+
+				<div class="col-md-5">
 					<div class="resume-wrap ftco-animate">
+						<h2>INTERNSHIP</h2>
+						<span class="date">2024</span>
 						
-						<h2>Securing Data with Blockchain and ML</h2>
-						<span class="date">2023</span>
-						<span class="position">iQuanti</span>
-						<p class="mt-4">This project deals with machine learning technology for detection of 
-							phishing URLs by extracting and analyzing various phishing URLs. This 
-							project goal is to detect and present the phishing website .
-
-							<p><a href="https://ijmec.com/securing-data-with-block-chain-and-machine-learning-2/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
-
-
+						<p class="mt-4">
+						
+						<p><b>COMPANY : </b>GreatCoder Trainings LLP</p>
+						<p><b> Postion</b>: Java Full Stack Intern</p>
+						<p><b>DURATION :</b>08.06.2024 to 11.01.2025</p>
+						<p style="text-align: justify;"><b>Description</b>As a Full Stack Developer, I built dynamic web applications using JSP, Servlets, Spring Core, and JDBC for seamless 
+							database integration, ensuring scalable solutions. Leveraging tools like Maven, GitHub, and SonarQube, I created responsive 
+							interfaces with HTML, CSS, and JavaScript, focusing on performance, accessibility, and code quality.</p>
+								
 							
 						</p>
 					</div>
 
-				</div> -->
-			</div> 
+				</div>
+
+
+			</div>
+
+			
 
 			<section class="ftco-section" id="project-section">
 				<div class="container">
@@ -523,7 +528,7 @@
 					<div class="col-md-7 heading-section text-center ftco-animate">
 					  <h1 class="big big-2">Projects</h1>
 					  <h2 class="mb-4">Projects</h2>
-					  <p>Below are the  projects done by me  on SQL, Python and ML.</p>
+					  <p>Below are the  projects done by me  on SQL, Java , Frontend and ML.</p>
 					</div>
 				  </div>
 		  
@@ -551,9 +556,9 @@
 								</p>
 							</div>
 							
-		  
+							
 						  </div>
-		  
+						  <!-- 2 -->
 						  <div class="col-md-6">
 							  <div class="resume-wrap ftco-animate">
 								  
@@ -577,7 +582,7 @@
 						  </div>
 
 
-
+<!-- 3 -->
 
 						  <div class="col-md-6">
 							<div class="resume-wrap ftco-animate">
@@ -601,6 +606,9 @@
 		  
 						  </div>
 		  
+	
+
+
 						  <div class="col-md-6">
 							  <div class="resume-wrap ftco-animate">
 								  
@@ -623,6 +631,54 @@
 							  
 		  
 						  </div>
+
+
+
+
+						  <div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+								<h2>Mk Restaurant : Using HTML , CSS & JAVASCRIPT</h2>
+								<span class="date">2024</span>
+								<!-- Image Section -->
+								<img src="image.png" alt="Surveillance System" class="img-fluid mt-3">
+								<p class="mt-4">
+									MK Restaurant is a dynamic web application built with HTML, CSS, and JavaScript, designed for seamless online menu browsing and food ordering. It features an intuitive interface, customizable orders with special instructions, and a responsive layout for optimal user experience.
+							
+								
+								
+								<p>
+									<a href="https://madhukumaryaroju.github.io/MK-Restaurant/" class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/MK-Restaurant" class="btn btn-primary py-2 px-2">GitHub</a>
+								</p>
+							</div>
+							
+		  
+						  </div>
+		  
+						  <div class="col-md-6">
+							  <div class="resume-wrap ftco-animate">
+								  
+								  <h2>STUDENT MANAGEMENT SYSTEM : JAVA(JDBC , Servlets & JSP)
+								</h2>
+								  <span class="date">2024</span>
+								  <!-- <span class="position">iQuanti</span> -->
+								  <!-- Image Section -->
+								<img src="student.png" alt="Surveillance System" class="img-fluid mt-3">
+								  <p class="mt-4">The Student Management System is a web application designed to manage student details. This system 
+									allows administrators to add, update, delete, and view student records. The application uses Java Servlet 
+									technology for backend processing, JSP for dynamic page rendering, and JDBC for database connectivity.
+									  <p>
+										<a href="https://madhukumaryaroju.github.io/StudentManagementsystem/" class="btn btn-primary py-2 px-2">Website</a>
+										<a href="https://github.com/madhukumaryaroju/StudentManagementsystem" class="btn btn-primary py-2 px-2">GitHub</a>
+									</p>		  
+		  
+									  
+								  </p>
+							  </div>
+							  
+		  
+						  </div>
+
 					  </div> 
 		  
 
