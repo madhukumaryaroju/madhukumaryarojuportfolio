@@ -22,6 +22,56 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
+	<style>
+form {
+			margin-left: 3%;
+            background: transparent;
+            border-radius: 8px;
+            padding: 20px;
+            width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            margin-bottom: 16px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+			
+        }
+
+        input:focus, textarea:focus {
+            border-color: #6200ea;
+            outline: none;
+        }
+
+        button {
+            background-color: #6200ea;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #3700b3;
+        }
+
+        .success-msg {
+            color: #4caf50;
+            font-size: 14px;
+            margin-top: -10px;
+        }
+        
+    </style>
 
 
 <style>
@@ -813,9 +863,16 @@
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+            <!-- <h1 class="big big-2">Contact</h1> -->
+            <!-- <h2 class="mb-4">Contact Me</h2> -->
+			<form name="submit-to-google-sheet" id="contactForm">
+				<h2>Contact Me</h2>
+				<input type="text" name="Name" placeholder="Your Name" required>
+				<input type="email" name="Email" placeholder="Your Email" required>
+				<textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+				<button type="submit">Submit</button>
+			</form>
+			<div id="successMessage">Enter your details to get in touch with me!</div>
           </div>
         </div>
 
@@ -900,6 +957,7 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
+  
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
