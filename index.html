@@ -24,57 +24,96 @@
 	<link rel="stylesheet" href="css/slide.css">
 
 	<style>
-form {
-			margin-left: 3%;
-            background: transparent;
-            border-radius: 8px;
-            padding: 20px;
-            width: 600px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        label {
-            display: block;
-            font-size: 14px;
-            margin-bottom: 8px;
-            color: white;
-        }
-
-        input, textarea, button {
-            width: 100%;
-            margin-bottom: 16px;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-			
-        }
-
-        input:focus, textarea:focus {
-            border-color: #6200ea;
-            outline: none;
-        }
-
-        button {
-            background-color: #6200ea;
-            color: #fff;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-        }
-
-        button:hover {
-            background-color: #3700b3;
-        }
-
-        .success-msg {
-            color: #4caf50;
-            font-size: 14px;
-            margin-top: -10px;
-        }
-        
-    </style>
-
-
+		form {
+			margin: 0 auto; /* Center the form horizontally */
+			background: transparent;
+			border-radius: 8px;
+			padding: 20px;
+			width: 90%; /* Adjusted to occupy most of the screen on smaller devices */
+			max-width: 600px; /* Ensures form doesn't grow too large on wider screens */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+		
+		label {
+			display: block;
+			font-size: 16px; /* Slightly increased for better readability */
+			margin-bottom: 8px;
+			color: white;
+		}
+		
+		input,
+		textarea,
+		button {
+			width: 100%; /* Ensures all elements scale properly */
+			margin-bottom: 16px;
+			padding: 10px; /* Increased padding for touch devices */
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-size: 14px; /* Ensures text remains readable */
+		}
+		
+		input:focus,
+		textarea:focus {
+			border-color: #6200ea;
+			outline: none;
+			box-shadow: 0 0 5px rgba(98, 0, 234, 0.5); /* Adds a subtle glow effect */
+		}
+		
+		button {
+			background-color: #6200ea;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			border: none;
+			padding: 12px; /* Increased padding for a better click area */
+			transition: background-color 0.3s ease;
+		}
+		
+		button:hover {
+			background-color: #3700b3;
+		}
+		
+		.success-msg {
+			color: #4caf50;
+			font-size: 14px;
+			margin-top: -10px;
+		}
+		
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			form {
+				width: 95%; /* Reduce width slightly for smaller screens */
+				padding: 15px; /* Reduce padding to fit smaller devices */
+			}
+		
+			label {
+				font-size: 14px; /* Slightly smaller labels for mobile */
+			}
+		
+			input,
+			textarea,
+			button {
+				font-size: 14px; /* Adjust text size */
+				padding: 8px; /* Reduce padding */
+			}
+		
+			button {
+				font-size: 14px; /* Smaller button text */
+			}
+		}
+		
+		@media (max-width: 480px) {
+			form {
+				padding: 10px; /* Minimal padding for very small screens */
+			}
+		
+			button {
+				padding: 10px; /* Ensure button still fits well */
+				font-size: 14px;
+			}
+		}
+		</style>
+		
 <style>
 
 /*======================================
@@ -189,8 +228,10 @@ form {
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Education</span></a></li>
 			  <li class="nav-item"><a href="#work-section" class="nav-link"><span>Work</span></a></li> 
+			  <li class="nav-item"><a href="#certificates-section" class="nav-link"><span>Certificates</span></a></li>
 			  <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
 			  <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+
 	        </ul>
 	      </div>
 	    </div>
@@ -459,6 +500,79 @@ form {
 
 		<br>
 		<br>
+		
+
+		<div class="row">
+			<h1 class="big-4">Work Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		<section class="ftco-section" id="work-section">
+			<div class="container">
+			  <div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Work Experience</h1>
+				  
+				  
+				</div>
+			  </div>
+	  
+	  
+			  
+			  
+			  <div class="row">
+					  <div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<h2>INTERNSHIP</h2> <br>
+							<!-- Image Section -->
+							<!-- <img src="p1.png" alt="Surveillance System" class="img-fluid mt-3"> -->
+							<p><b>COMPANY : </b>[Pantech E Learning Pvt Ltd]</p>
+							<p><b> Project</b>: SAVING IMAGE AT ANY LOCATION USING OPEN CV</p>
+							<p><b>DURATION :</b>10.12.2021 to 10.01.2022</p>
+							<p style="text-align: justify;"><b>Description</b>Developed a Python application utilizing OpenCV and NumPy for real-time webcam image and video
+							capture. Implemented features for applying grayscale and sepia filters, adding timestamps, and saving 
+							media to specified directories. Enhanced user interactivity with keyboard controls for capturing images, 
+							recording videos, and switching filters.</p>
+							<p><a href="https://ntr12321.github.io/intern/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
+
+
+						</div>
+						
+						
+					  </div>
+					  <!-- 2 -->
+					  <div class="col-md-6">
+						  <div class="resume-wrap ftco-animate">
+							  
+							<h2>INTERNSHIP</h2>
+							<br>
+							  
+							  <!-- <span class="position">iQuanti</span> -->
+							  <!-- Image Section -->
+							<!-- <img src="p2.png" alt="Surveillance System" class="img-fluid mt-3"> -->
+							<p><b>COMPANY : </b>GreatCoder Trainings LLP</p>
+							<p><b> Postion</b>: Java Full Stack Intern</p>
+							<p><b>DURATION :</b>08.06.2024 to 11.01.2025</p>
+							<p style="text-align: justify;"><b>Description </b>As a Full Stack Developer, I built dynamic web applications using JSP, Servlets, Spring Core, and JDBC for seamless
+								database integration, ensuring scalable solutions. Leveraging tools like Maven, GitHub, and SonarQube, I created responsive 
+								interfaces with HTML, CSS, and JavaScript, focusing on performance, accessibility, and code quality.</p>
+									
+								
+							
+	
+						  </div>
+						  
+	  
+					  </div>
+
+
+
+
+					
+	  
+					  <
+
+				  </div>
 
 		<div class="row">
 			<h1 class="big-4">Education</h1>
@@ -507,70 +621,7 @@ form {
 
    
 
-    <section class="ftco-section" id="work-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Experience</h1>
-            <h2 class="mb-4">Work Experience</h2>
-            <!-- <p>Below are the  projects done by me  on SQL, Python and ML.</p> -->
-          </div>
-        </div>
-
-
-		
-		
-		<div class="row" style=" width: 1400px;">
-				
-
-				<div class="col-md-5">
-					<div class="resume-wrap ftco-animate">
-						<h2>INTERNSHIP</h2>
-						
-						
-						<p class="mt-4">
-						
-						<p><b>COMPANY : </b>[Pantech E Learning Pvt Ltd]</p>
-						<p><b> Project</b>: SAVING IMAGE AT ANY LOCATION USING OPEN CV</p>
-						<p><b>DURATION :</b>10.12.2021 to 10.01.2022</p>
-						<p style="text-align: justify;"><b>Description</b>Developed a Python application utilizing OpenCV and NumPy for real-time webcam image and video 
-							capture. Implemented features for applying grayscale and sepia filters, adding timestamps, and saving 
-							media to specified directories. Enhanced user interactivity with keyboard controls for capturing images, 
-							recording videos, and switching filters.</p>
-						
-	
-								<p><a href="https://ntr12321.github.io/intern/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
-								
-							
-						</p>
-					</div>
-
-				</div>
-
-
-				<div class="col-md-5">
-					<div class="resume-wrap ftco-animate">
-						<h2>INTERNSHIP</h2>
-						
-						
-						<p class="mt-4">
-						
-						<p><b>COMPANY : </b>GreatCoder Trainings LLP</p>
-						<p><b> Postion</b>: Java Full Stack Intern</p>
-						<p><b>DURATION :</b>08.06.2024 to 11.01.2025</p>
-						<p style="text-align: justify;"><b>Description</b>As a Full Stack Developer, I built dynamic web applications using JSP, Servlets, Spring Core, and JDBC for seamless 
-							database integration, ensuring scalable solutions. Leveraging tools like Maven, GitHub, and SonarQube, I created responsive 
-							interfaces with HTML, CSS, and JavaScript, focusing on performance, accessibility, and code quality.</p>
-								
-							
-						</p>
-					</div>
-
-				</div>
-
-
-			</div>
-
+    
 			
 
 			<section class="ftco-section" id="project-section">
@@ -728,7 +779,7 @@ form {
 					  </div>
 
 	<!----------------------------------------------------------------------------------certificates-------------------------------------------><section class="ftco-section" id="project-section">
-		<section class="ftco-section" id="project-section">
+		<section class="ftco-section" id="certificates-section">
 			<div class="container">
 			  <div class="certificates-container">
 			
