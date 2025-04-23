@@ -1,427 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Yaroju Madhu Kumar Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<head>
+	<title>Yaroju Madhu Kumar Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/aos.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slide.css">
 
 	<style>
 		form {
-			margin: 0 auto; /* Center the form horizontally */
+			margin: 0 auto;
+			/* Center the form horizontally */
 			background: transparent;
 			border-radius: 8px;
 			padding: 20px;
-			width: 90%; /* Adjusted to occupy most of the screen on smaller devices */
-			max-width: 600px; /* Ensures form doesn't grow too large on wider screens */
+			width: 90%;
+			/* Adjusted to occupy most of the screen on smaller devices */
+			max-width: 600px;
+			/* Ensures form doesn't grow too large on wider screens */
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 		}
-		
+
 		label {
 			display: block;
-			font-size: 16px; /* Slightly increased for better readability */
+			font-size: 16px;
+			/* Slightly increased for better readability */
 			margin-bottom: 8px;
 			color: white;
 		}
-		
+
 		input,
 		textarea,
 		button {
-			width: 100%; /* Ensures all elements scale properly */
+			width: 100%;
+			/* Ensures all elements scale properly */
 			margin-bottom: 16px;
-			padding: 10px; /* Increased padding for touch devices */
+			padding: 10px;
+			/* Increased padding for touch devices */
 			border: 1px solid #ccc;
 			border-radius: 4px;
-			font-size: 14px; /* Ensures text remains readable */
+			font-size: 14px;
+			/* Ensures text remains readable */
 		}
-		
+
 		input:focus,
 		textarea:focus {
 			border-color: #6200ea;
 			outline: none;
-			box-shadow: 0 0 5px rgba(98, 0, 234, 0.5); /* Adds a subtle glow effect */
+			box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+			/* Adds a subtle glow effect */
 		}
-		
+
 		button {
 			background-color: #6200ea;
 			color: #fff;
 			font-size: 16px;
 			cursor: pointer;
 			border: none;
-			padding: 12px; /* Increased padding for a better click area */
+			padding: 12px;
+			/* Increased padding for a better click area */
 			transition: background-color 0.3s ease;
 		}
-		
+
 		button:hover {
 			background-color: #3700b3;
 		}
-		
+
 		.success-msg {
 			color: #4caf50;
 			font-size: 14px;
 			margin-top: -10px;
 		}
-		
+
 		/* Responsive adjustments */
 		@media (max-width: 768px) {
 			form {
-				width: 95%; /* Reduce width slightly for smaller screens */
-				padding: 15px; /* Reduce padding to fit smaller devices */
+				width: 95%;
+				/* Reduce width slightly for smaller screens */
+				padding: 15px;
+				/* Reduce padding to fit smaller devices */
 			}
-		
+
 			label {
-				font-size: 14px; /* Slightly smaller labels for mobile */
+				font-size: 14px;
+				/* Slightly smaller labels for mobile */
 			}
-		
+
 			input,
 			textarea,
 			button {
-				font-size: 14px; /* Adjust text size */
-				padding: 8px; /* Reduce padding */
+				font-size: 14px;
+				/* Adjust text size */
+				padding: 8px;
+				/* Reduce padding */
 			}
-		
+
 			button {
-				font-size: 14px; /* Smaller button text */
+				font-size: 14px;
+				/* Smaller button text */
 			}
 		}
-		
+
 		@media (max-width: 480px) {
 			form {
-				padding: 10px; /* Minimal padding for very small screens */
+				padding: 10px;
+				/* Minimal padding for very small screens */
 			}
-		
+
 			button {
-				padding: 10px; /* Ensure button still fits well */
+				padding: 10px;
+				/* Ensure button still fits well */
 				font-size: 14px;
 			}
 		}
-		</style>
-		
-<style>
+	</style>
 
-/*======================================
+	<style>
+		/*======================================
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-.circular-image {
-  width: 300px; /* Adjust size as needed */
-  height: 300px; /* Make height equal to width */
-  border-radius: 50%; /* This makes the image circular */
-  object-fit: cover; /* Ensures the image fits nicely within the circle */
-  border: 2px solid #000; /* Optional: Add a border for aesthetics */
-}
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		.circular-image {
+			width: 300px;
+			/* Adjust size as needed */
+			height: 300px;
+			/* Make height equal to width */
+			border-radius: 50%;
+			/* This makes the image circular */
+			object-fit: cover;
+			/* Ensures the image fits nicely within the circle */
+			border: 2px solid #000;
+			/* Optional: Add a border for aesthetics */
+		}
 
 
-.about-mf .about-img {
-  margin-bottom: 20rem;
-}
+		.about-mf .about-img {
+			margin-bottom: 20rem;
+		}
 
-.about-mf .about-img img {
-  margin-left: 20px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
+		.about-mf .about-img img {
+			margin-left: 20px;
+		}
 
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
 
-@media (max-width: 768px) {
-  #activities-section h4 {
-    font-size: 1.2rem; /* Adjust text size for smaller screens */
-  }
-
-  #activities-section img {
-    margin-bottom: 15px; /* Add spacing below the image */
-  }
-}
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #ffbd39;
+		}
 
 
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
+		@media (max-width: 768px) {
+			#activities-section h4 {
+				font-size: 1.2rem;
+				/* Adjust text size for smaller screens */
+			}
 
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
+			#activities-section img {
+				margin-bottom: 15px;
+				/* Add spacing below the image */
+			}
+		}
 
 
-/* project image zoom effect */
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
 
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
+		@keyframes typing {
+			from {
+				width: 0;
+			}
 
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
+			to {
+				width: 100%;
+			}
+		}
+
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
+
+			to {
+				width: 0;
+			}
+		}
 
 
-</style>
+		/* project image zoom effect */
+
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
+
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+	</style>
 
 
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Yaroju Madhu Kumar</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+</head>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <!-- <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li> -->
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-			  <li class="nav-item"><a href="#work-section" class="nav-link"><span>Work</span></a></li>
-			  <li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
-			  <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-			  <li class="nav-item"><a href="#certificates-section" class="nav-link"><span>Certificates</span></a></li>
-			  <li class="nav-item"><a href="#activities-section" class="nav-link"><span>Activities</span></a></li>
-			  <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.jpeg);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Yaroju Madhu Kumar</span></h1>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Yaroju Madhu Kumar</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-						<script>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<!-- <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li> -->
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#work-section" class="nav-link"><span>Work</span></a></li>
+					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#certificates-section" class="nav-link"><span>Certificates</span></a>
+					</li>
+					<li class="nav-item"><a href="#activities-section" class="nav-link"><span>Activities</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'Engineer  ',
-						'Full Stack Developer',
-						'MEMER  ',
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <!-- <h2>A Senior Data Analyst</h2> -->
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-			            <p><a href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
-							<a href="https://github.com/madhukumaryaroju" class="btn btn-white btn-outline-white py-3 px-4">GitHub</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
+				</ul>
+			</div>
 		</div>
-    </section>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third js-fullheight order-md-last img"
+							style="background-image:url(images/bg_1.jpeg);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Yaroju Madhu Kumar</span></h1>
+
+								<!-- Element to contain animated typing -->
+								<span id="typing-animation"></span>
+
+								<script>
+
+									// Initialize the typing animation
+									const typingAnimationElement = document.getElementById('typing-animation');
+
+									// Create an array of typing text
+									const typingTexts = [
+										'Engineer  ',
+										'Full Stack Developer',
+										'MEMER  ',
+									];
+
+									// Create a function to display the typing animation for a given text
+									function playTypingAnimation(text) {
+										// Loop through each character and add it to the element
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200); // Increase the delay to slow down the typing animation
+										}
+
+										// Once the animation is complete, reset the text and start over
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+
+									// Start the typing animation loop
+									playTypingAnimation(typingTexts[0]);
+
+								</script>
+
+								<br>
+								<br>
+								<!-- <h2>A Senior Data Analyst</h2> -->
+								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+								<!-- <br> -->
+								<p><a href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224/"
+										class="btn btn-primary py-3 px-4">LinkedIn</a>
+									<a href="https://github.com/madhukumaryaroju"
+										class="btn btn-white btn-outline-white py-3 px-4">GitHub</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
+					<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-4">
-									  <div class="about-img">
-										<!-- <img src="me.jpg" class="img-fluid rounded b-shadow-a" alt="Rounded Image"> -->
-										<img src="me.jpg" alt="Rounded Image" class="circular-image">
+										<div class="about-img">
+											<!-- <img src="me.jpg" class="img-fluid rounded b-shadow-a" alt="Rounded Image"> -->
+											<img src="me.jpg" alt="Rounded Image" class="circular-image">
 
-									  </div>
+										</div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<!-- <p><span class="title-s">Name: </span> <span>Yaroju Madhu Kumar</span></p>
+										<div class="about-info">
+											<!-- <p><span class="title-s">Name: </span> <span>Yaroju Madhu Kumar</span></p>
 										<p><span class="title-s">Qualification: </span> <span>B.Tech</span></p>
 										<p><span class="title-s">Experience: </span> <span>Fresher</span></p>
 										<p><span class="title-s">Address: </span> <span>Hyderbad, India</span></p> -->
-									  </div>
+										</div>
 									</div>
-								  </div>
+								</div>
 
 								<div class="skill-mf">
 									<h3 class="title-s">Skills</h3>
-									
+
 									<h3 class="title-s">Backend</h3>
 									<span>Java(Core & Advanced) : </span> <span class="pull-right">85%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-										
+										<div class="progress-bar" role="progressbar" style="width: 85%"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+
 									</div>
 									<h3 class="title-s">DataBases : </h3>
 									<span>MySQL :</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 									<span>Oracle :</span> <span class="pull-right">65%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 65%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 
 									<h3 class="title-s">Frontend</h3>
 
 									<span>HTML</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 
 									<span>CSS</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 									<span>Java Script</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 90%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 									<span>Bootstrap</span> <span class="pull-right">95%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 95%;"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
-									
-									
-									
-									
-									
+
+
+
+
+
 								</div>
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
-								
+
 								<div class="row">
-									<h1 class="big-4">About  Me</h1> <br>
+									<h1 class="big-4">About Me</h1> <br>
 									<div class="underline"></div>
 								</div>
 								<br>
-								<p>A motivated engineering student with strong analytical, communication, and interpersonal skills, eager to contribute in a
-									dynamic and challenging environment. Seeking an opportunity to learn and grow professionally while making valuable
-									contributions to the organization. Committed to leveraging technical expertise and a passion for innovation to excel in future
+								<p>A motivated engineering student with strong analytical, communication, and
+									interpersonal skills, eager to contribute in a
+									dynamic and challenging environment. Seeking an opportunity to learn and grow
+									professionally while making valuable
+									contributions to the organization. Committed to leveraging technical expertise and a
+									passion for innovation to excel in future
 									endeavors.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
 									<li class="d-flex"><span>Name:</span> <span>Yaroju Madhu Kumar</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
-									<li class="d-flex"><span>College:</span> <span>JB Institute Of Engineering and Technology</span></li>
-									<li class="d-flex"><span>Branch:</span> <span>Electronics and Computer Engineering</span></li>
+									<li class="d-flex"><span>College:</span> <span>JB Institute Of Engineering and
+											Technology</span></li>
+									<li class="d-flex"><span>Branch:</span> <span>Electronics and Computer
+											Engineering</span></li>
 									<li class="d-flex"><span>CGPA:</span> <span>79.7%</span></li>
 									<li class="d-flex"><span>Languages:</span> <span>English, Hindi, Telugu</span></li>
-									<li class="d-flex"><span>RESPONSIBILITY: </span> <span>General Secretary, NSS JBIET(2023-2024)</span></li>
+									<li class="d-flex"><span>RESPONSIBILITY: </span> <span>General Secretary, NSS
+											JBIET(2023-2024)</span></li>
 									<li class="d-flex"><span>Intrest:</span> <span>Problem solving,
-										Photo & Video Editing</span></li>
-									<li class="d-flex"><span>Hobbies:</span> <span>Meme Creation , Photo Editing, Video Editing</span></li>
-									
+											Photo & Video Editing</span></li>
+									<li class="d-flex"><span>Hobbies:</span> <span>Meme Creation , Photo Editing, Video
+											Editing</span></li>
+
 								</ul>
 							</div>
 						</div>
@@ -440,14 +481,14 @@
 				</div>
 			</div>
 		</div>
-    </section>
+	</section>
 
 
 
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<!-- <div class="row justify-content-center pb-5">
+
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<!-- <div class="row justify-content-center pb-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
@@ -457,17 +498,17 @@
           </div>
         </div> -->
 
-		<div class="row justify-content-center mt-5">
-    		<div class="col-md-6 text-center ftco-animate">
-    			<!-- <p><a href="#" class="btn btn-primary py-4 px-5">Download resume</a></p> -->
-    		</div>
-		</div>
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<!-- <p><a href="#" class="btn btn-primary py-4 px-5">Download resume</a></p> -->
+				</div>
+			</div>
 
-		<!-- <div class="row">
+			<!-- <div class="row">
 			<h1 class="big-4">PROJECTS</h1>
 			<div class="underline"></div>
 		</div> -->
-		<!-- <br>
+			<!-- <br>
 		
 		<div class="row">
 				<div class="col-md-6">
@@ -477,14 +518,14 @@
 						<span class="date">2024</span>
 						
 						 <span class="position">Merkle</span> -->
-						<!-- <p class="mt-4">Utilizing machine learning algorithms, our surveillance system 
+			<!-- <p class="mt-4">Utilizing machine learning algorithms, our surveillance system 
 							autonomously detects and monitors fire accidents, enabling swift
 							response and mitigation. By analyzing real-time data streams, it
 							ensures early detection and timely intervention to minimize damage
 							and enhance safety.
 							 -->
-								
-								<!-- <p><a href="https://ijmec.com/machine-learning-based-surveillance-for-fire-accident-monitoring/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
+
+			<!-- <p><a href="https://ijmec.com/machine-learning-based-surveillance-for-fire-accident-monitoring/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
 								
 							
 						</p>
@@ -496,9 +537,9 @@
 					<div class="resume-wrap ftco-animate">
 						
 						<h2>Securing Data with Blockchain and ML</h2> -->
-						<!-- <span class="date">2023</span> -->
-						<!-- <span class="position">iQuanti</span> -->
-						<!-- <p class="mt-4">This project deals with machine learning technology for detection of 
+			<!-- <span class="date">2023</span> -->
+			<!-- <span class="position">iQuanti</span> -->
+			<!-- <p class="mt-4">This project deals with machine learning technology for detection of 
 							phishing URLs by extracting and analyzing various phishing URLs. This 
 							project goal is to detect and present the phishing website .
 
@@ -510,426 +551,506 @@
 					</div>
 
 				</div>
-			</div> --> 
+			</div> -->
 
-		<br>
-		<br>
-		
+			<br>
+			<br>
 
-		<div class="row">
-			<h1 class="big-4">Work Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		<section class="ftco-section" id="work-section">
-			<div class="container">
-			  <div class="row justify-content-center mb-5 pb-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-				  <!-- <h1 class="big big-2">Work Experience</h1> -->
-				  
-				  
-				</div>
-			  </div>
-	  
-	  
-			  
-			  
-			  <div class="row">
-					  <div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							<h2>INTERNSHIP</h2> <br>
-							<!-- Image Section -->
-							<!-- <img src="p1.png" alt="Surveillance System" class="img-fluid mt-3"> -->
-							<p><b>COMPANY : </b>[Pantech E Learning Pvt Ltd]</p>
-							<p><b> Project</b>: SAVING IMAGE AT ANY LOCATION USING OPEN CV</p>
-							<p><b>DURATION :</b>10.12.2021 to 10.01.2022</p>
-							<p style="text-align: justify;"><b>Description</b>Developed a Python application utilizing OpenCV and NumPy for real-time webcam image and video
-							capture. Implemented features for applying grayscale and sepia filters, adding timestamps, and saving
-							media to specified directories. Enhanced user interactivity with keyboard controls for capturing images,
-							recording videos, and switching filters.</p>
-							<p><a href="https://ntr12321.github.io/intern/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
+
+			<div class="row">
+				<h1 class="big-4">Work Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+			<section class="ftco-section" id="work-section">
+				<div class="container">
+					<div class="row justify-content-center mb-5 pb-5">
+						<div class="col-md-7 heading-section text-center ftco-animate">
+							<!-- <h1 class="big big-2">Work Experience</h1> -->
 
 
 						</div>
-						
-						
-					  </div>
-					  <!-- 2 -->
-					  <div class="col-md-6">
-						  <div class="resume-wrap ftco-animate">
-							  
-							<h2>INTERNSHIP</h2>
-							<br>
-							  
-							  <!-- <span class="position">iQuanti</span> -->
-							  <!-- Image Section -->
-							<!-- <img src="p2.png" alt="Surveillance System" class="img-fluid mt-3"> -->
-							<p><b>COMPANY : </b>GreatCoder Trainings LLP</p>
-							<p><b> Postion</b>: Java Full Stack Intern</p>
-							<p><b>DURATION :</b>08.06.2024 to 11.01.2025</p>
-							<p style="text-align: justify;"><b>Description </b>As a Full Stack Developer, I built dynamic web applications using JSP, Servlets, Spring Core, and JDBC for seamless
-								database integration, ensuring scalable solutions. Leveraging tools like Maven, GitHub, and SonarQube, I created responsive 
-								interfaces with HTML, CSS, and JavaScript, focusing on performance, accessibility, and code quality.</p>
-									
-								
-							
-	
-						  </div>
-						  
-	  
-					  </div>
-
-
-
-
-					
-	  
-					  
-
-				  </div>
-
-		<div class="row" id="education-section">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-					<div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-						<span class="date">2020-2024</span>
-						<h2>Bachelor of Technology</h2>
-						<span class="position">JB Institute Of Engineering and Technology</span>
-						<span class="bold">Branch: Electronics and Computer Engineering(ECM)</span>
-						<p class="mt-4">CGPA: 79.7%.</p>
 					</div>
-			</div>
 
 
-			<div class="col-md-6">
-				<div class="resume-wrap ftco-animate">
-					<span class="date">2018-2020</span>
-					<h2>Intermediate</h2>
-					<span class="position">Narayana Junior College</span>
-					<p class="mt-4">Percentage: 81%.</p>
+
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+								<h2>INTERNSHIP</h2> <br>
+								<!-- Image Section -->
+								<!-- <img src="p1.png" alt="Surveillance System" class="img-fluid mt-3"> -->
+								<p><b>COMPANY : </b>[Pantech E Learning Pvt Ltd]</p>
+								<p><b> Project</b>: SAVING IMAGE AT ANY LOCATION USING OPEN CV</p>
+								<p><b>DURATION :</b>10.12.2021 to 10.01.2022</p>
+								<p style="text-align: justify;"><b>Description</b>Developed a Python application
+									utilizing OpenCV and NumPy for real-time webcam image and video
+									capture. Implemented features for applying grayscale and sepia filters, adding
+									timestamps, and saving
+									media to specified directories. Enhanced user interactivity with keyboard controls
+									for capturing images,
+									recording videos, and switching filters.</p>
+								<p><a href="https://ntr12321.github.io/intern/"
+										class="btn btn-primary py-2 px-2">Published Paper</a></p>
+
+
+							</div>
+
+
+						</div>
+						<!-- 2 -->
+						<div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+
+								<h2>INTERNSHIP</h2>
+								<br>
+
+								<!-- <span class="position">iQuanti</span> -->
+								<!-- Image Section -->
+								<!-- <img src="p2.png" alt="Surveillance System" class="img-fluid mt-3"> -->
+								<p><b>COMPANY : </b>GreatCoder Trainings LLP</p>
+								<p><b> Postion</b>: Java Full Stack Intern</p>
+								<p><b>DURATION :</b>08.06.2024 to 11.01.2025</p>
+								<p style="text-align: justify;"><b>Description </b>As a Full Stack Developer, I built
+									dynamic web applications using JSP, Servlets, Spring Core, and JDBC for seamless
+									database integration, ensuring scalable solutions. Leveraging tools like Maven,
+									GitHub, and SonarQube, I created responsive
+									interfaces with HTML, CSS, and JavaScript, focusing on performance, accessibility,
+									and code quality.</p>
+
+
+
+
+							</div>
+
+
+						</div>
+
+
+
+
+
+
+
+
+					</div>
+
+					<div class="row" id="education-section">
+						<h1 class="big-4">Education</h1>
+						<div class="underline"></div>
+					</div>
+					<br>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+								<span class="date">2020-2024</span>
+								<h2>Bachelor of Technology</h2>
+								<span class="position">JB Institute Of Engineering and Technology</span>
+								<span class="bold">Branch: Electronics and Computer Engineering(ECM)</span>
+								<p class="mt-4">CGPA: 79.7%.</p>
+							</div>
+						</div>
+
+
+						<div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+								<span class="date">2018-2020</span>
+								<h2>Intermediate</h2>
+								<span class="position">Narayana Junior College</span>
+								<p class="mt-4">Percentage: 81%.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="resume-wrap ftco-animate">
+								<span class="date">2017-2018</span>
+								<h2>Xth Standard</h2>
+								<span class="position">St.Francis De Sales High School</span>
+
+
+								<p class="mt-4">Percentage:82%.</p>
+							</div>
+						</div>
+
+
+					</div>
 				</div>
-			</div>
-    		</div>
-
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2017-2018</span>
-    					<h2>Xth Standard</h2>
-    					<span class="position">St.Francis De Sales High School</span>
-					
-						
-    					<p class="mt-4">Percentage:82%.</p>
-    				</div>
-    			</div>
+			</section>
 
 
-    		</div>
-    	</div>
-    </section> 
 
-   
 
-    
-			
+
 
 			<section class="ftco-section" id="project-section">
 				<div class="container">
-				  <div class="row justify-content-center mb-5 pb-5">
-					<div class="col-md-7 heading-section text-center ftco-animate">
-						<div class="row">
-							<h1 class="big-4">Projects</h1>
-							<div class="underline"></div>
-						</div> <br>
-					  <p>Below are the  projects done by me  on SQL, Java , Frontend and ML.</p>
+					<div class="row justify-content-center mb-5 pb-5">
+						<div class="col-md-7 heading-section text-center ftco-animate">
+							<div class="row">
+								<h1 class="big-4">Projects</h1>
+								<div class="underline"></div>
+							</div> <br>
+							<p>Below are the projects done by me on SQL, Java , Frontend and ML.</p>
+						</div>
 					</div>
-				  </div>
-		  
-		  
-				  
-				  
-				  <div class="row">
-						  <div class="col-md-6">
+
+
+
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+
+						<div class="col-md-4 mb-5">
 							<div class="resume-wrap ftco-animate">
 								<h2>Machine Learning Based Surveillance Monitoring</h2> <br>
 								<!-- Image Section -->
 								<img src="p1.png" alt="Surveillance System" class="img-fluid mt-3">
-								<p class="mt-4">Utilizing machine learning algorithms, our surveillance system 
+								<p class="mt-4">Utilizing machine learning algorithms, our surveillance system
 									autonomously detects and monitors fire accidents, enabling swift
 									response and mitigation. By analyzing real-time data streams, it
 									ensures early detection and timely intervention to minimize damage
-									and enhance safety. 
+									and enhance safety.
 								</p>
-							
-								
-								
+
+
+
 								<p>
-									<a href="https://ijmec.com/machine-learning-based-surveillance-for-fire-accident-monitoring/" class="btn btn-primary py-2 px-2">Published Paper</a>
+									<a href="https://ijmec.com/machine-learning-based-surveillance-for-fire-accident-monitoring/"
+										class="btn btn-primary py-2 px-2">Published Paper</a>
 								</p>
 							</div>
-							
-							
-						  </div>
-						  <!-- 2 -->
-						  <div class="col-md-6">
-							  <div class="resume-wrap ftco-animate">
-								  
-								  <h2>Securing Data with Blockchain and ML</h2> <br>
-								  
-								  <!-- <span class="position">iQuanti</span> -->
-								  <!-- Image Section -->
+
+
+						</div>
+						<!-- 2 -->
+						<div class="col-md-4 mb-5">
+							<div class="resume-wrap ftco-animate">
+
+								<h2>Securing Data with Blockchain and ML</h2> <br>
+
+								<!-- <span class="position">iQuanti</span> -->
+								<!-- Image Section -->
 								<img src="p2.png" alt="Surveillance System" class="img-fluid mt-3">
-								  <p class="mt-4">This project deals with machine learning technology for detection of 
-									  phishing URLs by extracting and analyzing various phishing URLs. This 
-									  project goal is to detect and present the phishing website .
-		  
-									  <p><a href="https://ijmec.com/securing-data-with-block-chain-and-machine-learning-2/" class="btn btn-primary py-2 px-2">Published Paper</a></p>
-		  
-		  
-									  
-								  </p>
-							  </div>
-							  
-		  
-						  </div>
+								<p class="mt-4">This project deals with machine learning technology for detection of
+									phishing URLs by extracting and analyzing various phishing URLs. This
+									project goal is to detect and present the phishing website .
+
+								<p><a href="https://ijmec.com/securing-data-with-block-chain-and-machine-learning-2/"
+										class="btn btn-primary py-2 px-2">Published Paper</a></p>
 
 
-<!-- 3 -->
 
-						  <div class="col-md-6">
+								</p>
+							</div>
+
+
+						</div>
+
+
+						<!-- 3 -->
+
+						<div class="col-md-4 mb-5">
 							<div class="resume-wrap ftco-animate">
 								<h2>MOVIE TICKETS BOOKING WEB APPLICATION : Using HTML , CSS & JAVASCRIPT</h2>
 								<!-- Image Section -->
 								<img src="p3.png" alt="Surveillance System" class="img-fluid mt-3">
 								<p class="mt-4">
-									The Movie Tickets Booking Web Application is a user-friendly platform developed using HTML, CSS, and JavaScript.
-									 It allows users to browse movies, select showtimes, and book tickets seamlessly. The application integrates interactive features for choosing seats, provides real-time booking status, and ensures a smooth user experience with responsive design and intuitive navigation. It streamlines the ticketing process, 
+									The Movie Tickets Booking Web Application is a user-friendly platform developed
+									using HTML, CSS, and JavaScript.
+									It allows users to browse movies, select showtimes, and book tickets seamlessly. The
+									application integrates interactive features for choosing seats, provides real-time
+									booking status, and ensures a smooth user experience with responsive design and
+									intuitive navigation. It streamlines the ticketing process,
 									making it accessible across devices.
-							
-								
-								
+
+
+
 								<p>
-									<a href="https://madhukumaryaroju.github.io/Movie-Ticket-Booking/" class="btn btn-primary py-2 px-2">Website</a>
-									<a href="https://github.com/madhukumaryaroju/Movie-Ticket-Booking" class="btn btn-primary py-2 px-2">GitHub</a>
+									<a href="https://madhukumaryaroju.github.io/Movie-Ticket-Booking/"
+										class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/Movie-Ticket-Booking"
+										class="btn btn-primary py-2 px-2">GitHub</a>
 								</p>
 							</div>
-							
-		  
-						  </div>
-		  
-	
 
 
-						  <div class="col-md-6">
-							  <div class="resume-wrap ftco-animate">
-								  
-								  <h2>FOOD DELIVERY WEB APPLICATION : Using HTML , CSS & JAVASCRIPT</h2> <br>
-								  <!-- <span class="position">iQuanti</span> -->
-								  <!-- Image Section -->
+						</div>
+
+						<br> <br> <br> <br>
+
+
+						<div class="col-md-4">
+							<div class="resume-wrap uftco-animate">
+
+								<h2>FOOD DELIVERY WEB APPLICATION : Using HTML , CSS & JAVASCRIPT</h2> <br>
+								<!-- <span class="position">iQuanti</span> -->
+								<!-- Image Section -->
 								<img src="p4.png" alt="Surveillance System" class="img-fluid mt-3">
-								  <p class="mt-4">The Food Delivery Web Application allows users to browse, order, and track food deliveries from local restaurants. Built using HTML, CSS, and JavaScript, it offers an intuitive user interface for seamless navigation. Features include restaurant listings, real-time order tracking, and secure payment integration. The application ensures a smooth and efficient 
-									food ordering experience while catering to user preferences with filters and 
+								<p class="mt-4">The Food Delivery Web Application allows users to browse, order, and
+									track food deliveries from local restaurants. Built using HTML, CSS, and JavaScript,
+									it offers an intuitive user interface for seamless navigation. Features include
+									restaurant listings, real-time order tracking, and secure payment integration. The
+									application ensures a smooth and efficient
+									food ordering experience while catering to user preferences with filters and
 									personalized recommendations.
-									  <p>
-										<a href="https://madhukumaryaroju.github.io/Food-Delivery/" class="btn btn-primary py-2 px-2">Website</a>
-										<a href="https://github.com/madhukumaryaroju/Food-Delivery" class="btn btn-primary py-2 px-2">GitHub</a>
-									</p>		  
-		  
-									  
-								  </p>
-							  </div>
-							  
-		  
-						  </div>
+								<p>
+									<a href="https://madhukumaryaroju.github.io/Food-Delivery/"
+										class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/Food-Delivery"
+										class="btn btn-primary py-2 px-2">GitHub</a>
+								</p>
+
+
+								</p>
+							</div>
+
+
+						</div>
 
 
 
 
-						  <div class="col-md-6">
+						<div class="col-md-4">
 							<div class="resume-wrap ftco-animate">
 								<h2>Mk Restaurant : Using HTML , CSS & JAVASCRIPT</h2>
 								<!-- Image Section -->
 								<img src="image.png" alt="Surveillance System" class="img-fluid mt-3">
 								<p class="mt-4">
-									MK Restaurant is a dynamic web application built with HTML, CSS, and JavaScript, designed for seamless online menu browsing and food ordering. It features an intuitive interface, customizable orders with special instructions, and a responsive layout for optimal user experience.
-							
-								
-								
+									MK Restaurant is a dynamic web application built with HTML, CSS, and JavaScript,
+									designed for seamless online menu browsing and food ordering. It features an
+									intuitive interface, customizable orders with special instructions, and a responsive
+									layout for optimal user experience.
+
+
+
 								<p>
-									<a href="https://madhukumaryaroju.github.io/MK-Restaurant/" class="btn btn-primary py-2 px-2">Website</a>
-									<a href="https://github.com/madhukumaryaroju/MK-Restaurant" class="btn btn-primary py-2 px-2">GitHub</a>
+									<a href="https://madhukumaryaroju.github.io/MK-Restaurant/"
+										class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/MK-Restaurant"
+										class="btn btn-primary py-2 px-2">GitHub</a>
 								</p>
 							</div>
-							
-		  
-						  </div>
-		  
-						  <div class="col-md-6">
-							  <div class="resume-wrap ftco-animate" >
-								  
-								  <h2>STUDENT MANAGEMENT SYSTEM : JAVA(JDBC , Servlets & JSP) <br> <br>
+
+
+						</div>
+						<br><br><br> <br> <br>
+						<div class="col-md-4">
+							<div class="resume-wrap ftco-animate">
+
+								<h2>STUDENT MANAGEMENT SYSTEM : JAVA(JDBC , Servlets & JSP) <br> <br>
 								</h2>
-								  <!-- <span class="position">iQuanti</span> -->
-								  <!-- Image Section -->
-								<img src="student.png" alt="Surveillance System" class="img-fluid mt-3">
-								  <p class="mt-4">The Student Management System is a web application designed to manage student details. This system 
-									allows administrators to add, update, delete, and view student records. The application uses Java Servlet 
-									technology for backend processing, JSP for dynamic page rendering, and JDBC for database connectivity. <br> <br>
-									  <p>
-										<a href="https://madhukumaryaroju.github.io/StudentManagementsystem/" class="btn btn-primary py-2 px-2">Website</a>
-										<a href="https://github.com/madhukumaryaroju/StudentManagementsystem" class="btn btn-primary py-2 px-2">GitHub</a>
-									</p>		  
-		  
-									  
-								  </p>
-							  </div>
-							  
-		  
-						  </div>
-
-					  </div>
-
-	<!----------------------------------------------------------------------------------certificates-------------------------------------------><section class="ftco-section" id="project-section">
-		<section class="ftco-section" id="certificates-section">
-			<div class="container">
-			  <div class="row justify-content-center mb-5 pb-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<div class="row">
-						<h1 class="big-4">Certification</h1>
-						<div class="underline"></div>
-					</div>
-				</div>
-			  </div>
-	  
-	  
-			  
-			  
-			  <div class="row">
-					  <div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							<!-- Image Section -->
-							<img src="software intern.png" alt="Surveillance System" class="img-fluid mt-3">
-							<h4 class="mt-4">
-								<b>TITLE :     </b>  Software Engineer Intern <br>
-								<b>ISSUED BY :</b> HACKERRANK <br>
-								<b>ISSUED DATE :</b> 15.10.2025 <br>
-
-							</h4>
-						
-						</div>
-						
-						
-					</div>
-					  <!-- 2 -->
-					  <div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							
-							<!-- Image Section -->
-							<img src="accenture.png" alt="Surveillance System" class="img-fluid mt-3">
-							<h4 class="mt-4">
-								<b>TITLE :     </b>  Data Analytics <br>
-								<b>ISSUED BY :</b> Accenture(Centum) <br>
-								<b>ISSUED DATE :</b> 27.03.2024 <br>
-
-							</h4>
-						
-						</div>
-						
-						
-					</div>
-
-
-					<div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							
-							<!-- Image Section -->
-							<img src="c1.png" alt="Surveillance System" class="img-fluid mt-3">
-							<h4 class="mt-4">
-								
-								<b>ISSUED BY : HACKERRANK </b> <br> <br>
-								<b>TITLE</b> : Java <br>
-								<b>TITLE</b> : MySQL(Basics) <br>
-								<b>TITLE</b> : MySQL(Intermediate) <br>
-								<b>TITLE</b> : JAVASCRIPT <br>
-								<b>TITLE</b> : CSS
-
-							</h4>
-						
-						</div>
-					</div>
-						
-					<div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							
-							<!-- Image Section --> <br>
-							<img src="GL.png" alt="Surveillance System" class="img-fluid mt-3"> <br> <br><br>
-							<h4 class="mt-4">
-								
-								<b>ISSUED BY :GREAT LEARNING </b>  <br> <br>
-								<b>TITLE</b> : MICROSOFT AZURE ESSENTIALS <br> <br>
-								<b>TITLE</b> : CLOUD FOUNDATIONS <br> <br>
-								<b>TITLE</b> : CLOUD ESSENTIALS
-								
-							</h4>
-						
-						</div>
-						
-						
-					</div>
-						
-						
-					</div>
-
-					
-
-					<!----------------------------------------------------------------------------------certificates-------------------------------------------><section class="ftco-section" id="project-section">
-						<div class="row">
-							<h1 class="big-4">Achievements & Activities</h1>
-							<div class="underline"></div>
-						</div>
-						
-		
-		
-						<section class="ftco-section" id="activities-section">
-							<div class="container">
-							  <div class="row justify-content-center mb-5 pb-5">
-								<div class="col-md-7 heading-section text-center ftco-animate">
-								  <h2 class="mb-4">Activities</h2>
-								</div>
-							  </div>
-						  
-							  <div class="row align-items-center mt-4">
+								<!-- <span class="position">iQuanti</span> -->
 								<!-- Image Section -->
-								<div class="col-md-6 col-12 text-center mb-4 mb-md-0">
-								  <img src="Nss.jpg" alt="Surveillance System" class="img-fluid" style="max-width: 100%; height: auto;">
-								</div>
-						  
-								<!-- Text Section -->
-								<div class="col-md-6 col-12 text-center text-md-start">
-								  <h4>
-									<b>General Secretary Of NSS JBIET</b> <br><br>
-									<b>Year</b>: 2023-2024
-								  </h4>
-								</div>
-							  </div>
+								<img src="student.png" alt="Surveillance System" class="img-fluid mt-3">
+								<p class="mt-4">The Student Management System is a web application designed to manage
+									student details. This system
+									allows administrators to add, update, delete, and view student records. The
+									application uses Java Servlet
+									technology for backend processing, JSP for dynamic page rendering, and JDBC for
+									database connectivity. <br> <br>
+								<p>
+									<a href="https://madhukumaryaroju.github.io/StudentManagementsystem/"
+										class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/StudentManagementsystem"
+										class="btn btn-primary py-2 px-2">GitHub</a>
+								</p>
+
+
+								</p>
 							</div>
-						  </section>
-						  
+
+
+						</div>
 
 
 
-			
-	
+
+						<div class="col-md-4" style="width: 100%;">
+							<div class="resume-wrap ftco-animate">
+
+								<h2>STUDENT MANAGEMENT SYSTEM : JAVA(JDBC , Servlets & JSP) <br> <br>
+								</h2>
+								<!-- <span class="position">iQuanti</span> -->
+								<!-- Image Section -->
+								<img src="student.png" alt="Surveillance System" class="img-fluid mt-3">
+								<p class="mt-4">The Student Management System is a web application designed to manage
+									student details. This system
+									allows administrators to add, update, delete, and view student records. The
+									application uses Java Servlet
+									technology for backend processing, JSP for dynamic page rendering, and JDBC for
+									database connectivity. <br> <br>
+								<p>
+									<a href="https://madhukumaryaroju.github.io/StudentManagementsystem/"
+										class="btn btn-primary py-2 px-2">Website</a>
+									<a href="https://github.com/madhukumaryaroju/StudentManagementsystem"
+										class="btn btn-primary py-2 px-2">GitHub</a>
+								</p>
+
+
+								</p>
+							</div>
+
+
+						</div>
+
+					</div>
+
+					<style>
+						.resume-wrap {
+							height: 100%;
+							display: flex;
+							flex-direction: column;
+							justify-content: space-between;
+							padding: 20px;
+							border-radius: 10px;
+							margin-bottom: 10%;
+
+						}
+					</style>
+
+					<!----------------------------------------------------------------------------------certificates------------------------------------------->
+					<section class="ftco-section" id="project-section">
+						<section class="ftco-section" id="certificates-section">
+							<div class="container">
+								<div class="row justify-content-center mb-5 pb-5">
+									<div class="col-md-7 heading-section text-center ftco-animate">
+										<div class="row">
+											<h1 class="big-4">Certification</h1>
+											<div class="underline"></div>
+										</div>
+									</div>
+								</div>
 
 
 
-        <!-- <div class="row d-flex"> -->
-          <!-- <div class="col-md-4 d-flex ftco-animate">
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="resume-wrap ftco-animate">
+											<!-- Image Section -->
+											<img src="software intern.png" alt="Surveillance System"
+												class="img-fluid mt-3">
+											<h4 class="mt-4">
+												<b>TITLE : </b> Software Engineer Intern <br>
+												<b>ISSUED BY :</b> HACKERRANK <br>
+												<b>ISSUED DATE :</b> 15.10.2025 <br>
+
+											</h4>
+
+										</div>
+
+
+									</div>
+									<!-- 2 -->
+									<div class="col-md-6">
+										<div class="resume-wrap ftco-animate">
+
+											<!-- Image Section -->
+											<img src="accenture.png" alt="Surveillance System" class="img-fluid mt-3">
+											<h4 class="mt-4">
+												<b>TITLE : </b> Data Analytics <br>
+												<b>ISSUED BY :</b> Accenture(Centum) <br>
+												<b>ISSUED DATE :</b> 27.03.2024 <br>
+
+											</h4>
+
+										</div>
+
+
+									</div>
+
+
+									<div class="col-md-6">
+										<div class="resume-wrap ftco-animate">
+
+											<!-- Image Section -->
+											<img src="c1.png" alt="Surveillance System" class="img-fluid mt-3">
+											<h4 class="mt-4">
+
+												<b>ISSUED BY : HACKERRANK </b> <br> <br>
+												<b>TITLE</b> : Java <br>
+												<b>TITLE</b> : MySQL(Basics) <br>
+												<b>TITLE</b> : MySQL(Intermediate) <br>
+												<b>TITLE</b> : JAVASCRIPT <br>
+												<b>TITLE</b> : CSS
+
+											</h4>
+
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="resume-wrap ftco-animate">
+
+											<!-- Image Section --> <br>
+											<img src="GL.png" alt="Surveillance System" class="img-fluid mt-3"> <br>
+											<br><br>
+											<h4 class="mt-4">
+
+												<b>ISSUED BY :GREAT LEARNING </b> <br> <br>
+												<b>TITLE</b> : MICROSOFT AZURE ESSENTIALS <br> <br>
+												<b>TITLE</b> : CLOUD FOUNDATIONS <br> <br>
+												<b>TITLE</b> : CLOUD ESSENTIALS
+
+											</h4>
+
+										</div>
+
+
+									</div>
+
+
+								</div>
+
+
+
+								<!----------------------------------------------------------------------------------certificates------------------------------------------->
+								<section class="ftco-section" id="project-section">
+									<div class="row">
+										<h1 class="big-4">Achievements & Activities</h1>
+										<div class="underline"></div>
+									</div>
+
+
+
+									<section class="ftco-section" id="activities-section">
+										<div class="container">
+											<div class="row justify-content-center mb-5 pb-5">
+												<div class="col-md-7 heading-section text-center ftco-animate">
+													<h2 class="mb-4">Activities</h2>
+												</div>
+											</div>
+
+											<div class="row align-items-center mt-4">
+												<!-- Image Section -->
+												<div class="col-md-6 col-12 text-center mb-4 mb-md-0">
+													<img src="Nss.jpg" alt="Surveillance System" class="img-fluid"
+														style="max-width: 100%; height: auto;">
+												</div>
+
+												<!-- Text Section -->
+												<div class="col-md-6 col-12 text-center text-md-start">
+													<h4>
+														<b>General Secretary Of NSS JBIET</b> <br><br>
+														<b>Year</b>: 2023-2024
+													</h4>
+												</div>
+											</div>
+										</div>
+									</section>
+
+
+
+
+
+
+
+
+
+									<!-- <div class="row d-flex"> -->
+									<!-- <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
               </a>
@@ -965,7 +1086,7 @@
         </div>
 	<br>
 		 added justify-content-center to center align the last two projects -->
-		<!-- <div class="row d-flex justify-content-center">  
+									<!-- <div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
 				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
@@ -990,9 +1111,9 @@
 			</div>
 		 </div>
 	  </div> -->
-    <!-- </section> -->
+									<!-- </section> -->
 
-	<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+									<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
 		<div class="row d-md-flex align-items-center">
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
@@ -1023,7 +1144,7 @@
             <div class="block-18">
               <div class="text">
                 <strong class="number" data-number="500">0</strong> -->
-                <!-- <span>Cups of coffee</span>
+									<!-- <span>Cups of coffee</span>
               </div>
             </div>
           </div>
@@ -1031,8 +1152,8 @@
       </div>
 	
 	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)"> -->
-			<!-- <div class="container"> -->
-				<!-- <div class="row justify-content-center">
+									<!-- <div class="container"> -->
+									<!-- <div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Github  </span> </h2>
 						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
@@ -1041,73 +1162,84 @@
 						</div>
 					</div>
 				</div> -->
-			<!-- </div> -->
-		<!-- </div>
+									<!-- </div> -->
+									<!-- </div>
 	</section> --> <br> <br>
 
-	
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-		
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <!-- <h1 class="big big-2">Contact</h1> -->
-            <!-- <h2 class="mb-4">Contact Me</h2> -->
-			<div class="row">
-				<h1 class="big-4">Contact Me</h1>
-				<div class="underline"></div>
-			</div> <br>
-			<form name="submit-to-google-sheet" id="contactForm">
-				<br>
-				<input type="text" name="Name" placeholder="Your Name" required>
-				<input type="email" name="Email" placeholder="Your Email" required>
-				<textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
-				<button type="submit">Submit</button>
-			</form>
-			<div id="successMessage">Enter your details to get in touch with me!</div>
-          </div>
-        </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Hyderbad, India</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://917993394286">+917993394286</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="madhukumarchary2002@gmail.com">madhukumarchary2002@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-linkedin"></span>
-          		</div>
-          		<h3 class="mb-4">Linkedin</h3>
-	            <p><a href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224">LinkedIn</a></p>
-	          </div>
-          </div>
+									<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+										<div class="container">
 
-		  <!-- <div class="container">
+											<div class="row justify-content-center mb-5 pb-3">
+												<div class="col-md-7 heading-section text-center ftco-animate">
+													<!-- <h1 class="big big-2">Contact</h1> -->
+													<!-- <h2 class="mb-4">Contact Me</h2> -->
+													<div class="row">
+														<h1 class="big-4">Contact Me</h1>
+														<div class="underline"></div>
+													</div> <br>
+													<form name="submit-to-google-sheet" id="contactForm">
+														<br>
+														<input type="text" name="Name" placeholder="Your Name" required>
+														<input type="email" name="Email" placeholder="Your Email"
+															required>
+														<textarea name="Message" rows="5" placeholder="Your Message"
+															required></textarea>
+														<button type="submit">Submit</button>
+													</form>
+													<div id="successMessage">Enter your details to get in touch with me!
+													</div>
+												</div>
+											</div>
+
+											<div class="row d-flex contact-info mb-5">
+												<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+													<div class="align-self-stretch box p-4 text-center">
+														<div
+															class="icon d-flex align-items-center justify-content-center">
+															<span class="icon-map-signs"></span>
+														</div>
+														<h3 class="mb-4">Address</h3>
+														<p>Hyderbad, India</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+													<div class="align-self-stretch box p-4 text-center">
+														<div
+															class="icon d-flex align-items-center justify-content-center">
+															<span class="icon-phone2"></span>
+														</div>
+														<h3 class="mb-4">Contact Number</h3>
+														<p><a href="tel://917993394286">+917993394286</a></p>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+													<div class="align-self-stretch box p-4 text-center">
+														<div
+															class="icon d-flex align-items-center justify-content-center">
+															<span class="icon-paper-plane"></span>
+														</div>
+														<h3 class="mb-4">Email Address</h3>
+														<p><a
+																href="madhukumarchary2002@gmail.com">madhukumarchary2002@gmail.com</a>
+														</p>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+													<div class="align-self-stretch box p-4 text-center">
+														<div
+															class="icon d-flex align-items-center justify-content-center">
+															<span class="icon-linkedin"></span>
+														</div>
+														<h3 class="mb-4">Linkedin</h3>
+														<p><a
+																href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224">LinkedIn</a>
+														</p>
+													</div>
+												</div>
+
+												<!-- <div class="container">
 			<br>
 			<br>
 			<div class="row justify-content-center">
@@ -1115,56 +1247,70 @@
 					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
 				</div>
 			</div> -->
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <!-- <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li> -->
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224/"><span class="icon-linkedin"></span></a></li>  
-					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li> -->
-					  <li class="ftco-animate"><a  href="tel://7993394286"><span class="icon-phone2"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/madhu_kumar21_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+												<br>
+												<ul
+													class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+													<li class="ftco-animate normal-txt">Find me on </li>
+													<!-- <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li> -->
+													<li class="ftco-animate"><a
+															href="https://www.linkedin.com/in/madhu-kumar-yaroju-415431224/"><span
+																class="icon-linkedin"></span></a></li>
+													<!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li> -->
+													<li class="ftco-animate"><a href="tel://7993394286"><span
+																class="icon-phone2"></span></a></li>
+													<li class="ftco-animate"><a
+															href="https://www.instagram.com/madhu_kumar21_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
+																class="icon-instagram"></span></a></li>
+												</ul>
+												<br>
+											</div>
+										</div>
+									</section>
 
 
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
 
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+									<footer class="ftco-footer ftco-section">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-12 text-center">
+
+													<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+														<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+														<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+													</p>
+												</div>
+											</div>
+										</div>
+									</footer>
 
 
-  
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  	<script src="js/scrollax.min.js"></script>
-  
-	<script src="js/main.js"></script>
-    
-  </body>
+									<!-- loader -->
+									<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px"
+											height="48px">
+											<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+												stroke="#eeeeee" />
+											<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+												stroke-miterlimit="10" stroke="#F96D00" />
+										</svg></div>
+
+
+
+									<script src="js/jquery.min.js"></script>
+									<script src="js/jquery-migrate-3.0.1.min.js"></script>
+									<script src="js/popper.min.js"></script>
+									<script src="js/bootstrap.min.js"></script>
+									<script src="js/jquery.easing.1.3.js"></script>
+									<script src="js/jquery.waypoints.min.js"></script>
+									<script src="js/jquery.stellar.min.js"></script>
+									<script src="js/owl.carousel.min.js"></script>
+									<script src="js/jquery.magnific-popup.min.js"></script>
+									<script src="js/aos.js"></script>
+									<script src="js/jquery.animateNumber.min.js"></script>
+									<script src="js/scrollax.min.js"></script>
+
+									<script src="js/main.js"></script>
+
+</body>
+
 </html>
