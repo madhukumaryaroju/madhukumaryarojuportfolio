@@ -72,3 +72,11 @@
     color: #ffbd39;
     font-weight: 600;
 }
+
+
+.hero-img {
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
